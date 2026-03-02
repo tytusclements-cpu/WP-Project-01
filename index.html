@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipe Studio — Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Recipe Studio</a>
+
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="compare.html">Compare</a></li>
+          <li><a href="recipe.html?id=1">Demo</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn" aria-pressed="false">Toggle theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <h1 id="hero-heading">Discover recipes that delight</h1>
+      <p class="lead">Browse, filter, and follow step-by-step instructions — responsive and accessible.</p>
+      <p>
+        <a class="btn primary" href="recipes.html">View recipes</a>
+      </p>
+    </section>
+
+    <section class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">What you'll find</h2>
+      <ul class="feature-grid">
+        <li class="card">
+          <h3>Readable layout</h3>
+          <p>Semantic HTML, clear headings, and accessible color contrast.</p>
+        </li>
+        <li class="card">
+          <h3>Filter & Compare</h3>
+          <p>Find recipes and compare ingredient substitutes.</p>
+        </li>
+        <li class="card">
+          <h3>Responsive & Animated</h3>
+          <p>Mobile-first layout with smooth transitions and motion respecting preferences.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> Recipe Studio — Built by the team</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipe Studio — Recipe</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Recipe Studio</a>
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="compare.html">Compare</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle-3" class="btn">Toggle theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <article id="recipe-article" class="recipe-detail" aria-labelledby="recipe-title">
+      <!-- Populated by JS -->
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year-3"></span> Recipe Studio</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
