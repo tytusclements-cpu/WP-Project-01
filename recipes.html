@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipe Studio — Recipes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Recipe Studio</a>
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html" aria-current="page">Recipes</a></li>
+          <li><a href="compare.html">Compare</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle-2" class="btn" aria-pressed="false">Toggle theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section aria-labelledby="recipes-heading">
+      <div class="toolbar">
+        <h1 id="recipes-heading">All Recipes</h1>
+
+        <label class="search">
+          <span class="visually-hidden">Search recipes</span>
+          <input id="search" type="search" placeholder="Search (e.g. pasta, vegan)" />
+        </label>
+
+        <label for="filter-select">Filter:</label>
+        <select id="filter-select" aria-label="Filter recipes">
+          <option value="all">All</option>
+          <option value="vegan">Vegan</option>
+          <option value="dessert">Dessert</option>
+          <option value="quick">Quick</option>
+        </select>
+      </div>
+
+      <ul id="recipe-grid" class="grid" aria-live="polite">
+        <!-- Recipe cards inserted by JavaScript -->
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year-2"></span> Recipe Studio</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
