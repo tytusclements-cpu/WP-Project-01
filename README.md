@@ -1,11 +1,11 @@
 # WP-Project-01
-
-Beginner Recipes
+---
+### Beginner Recipes
 Beginner Recipes is a responsive recipe website built using semantic HTML and CSS fundamentals.
 The site alows users to browse recipes, view detailed cooking instructions, and compare ingredient substitutes.
 This project demonstates resposive web design, accessible layout structure, and CSS animations while following best pratices for organization and readability.
-
-Project Goals
+---
+### Project Goals
 The goal of this project is to practice:
   Semantic HTML structure
   Responsive design using CSS Grid and Flexbox
@@ -13,8 +13,8 @@ The goal of this project is to practice:
   CSS transitions and animations
   Accessible navigation and layout
   Multi-page website organization
-
-Website Features
+---
+### Website Features
 -Homepage
     The homepage introduces the website and provides quick navigation to recipes and ingredient comparison tools.
 -Recipes Page
@@ -34,16 +34,16 @@ Website Features
     Milk
     Butter
     Sugar
-
-Technologies Used
+---
+### Technologies Used
   HTML5
   CSS3
   CSS Variables
   CSS Grid
   Flexbox
   CSS Animations
-
-Project Structure
+---
+### Project Structure
   WP PROJECT 1
     |
     |--- index.html
@@ -53,8 +53,8 @@ Project Structure
     |
     |--- image/
     |      |__ recipe-images.png
-
-Design Features
+---
+### Design Features
 The website includes seveal moddern design elements:
   Responsive layout for mobile and desktop
   Animated logo entrance
