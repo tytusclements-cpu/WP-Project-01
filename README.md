@@ -1,12 +1,12 @@
 # WP-Project-01
 ---
-# Beginner Recipes
+## Beginner Recipes
 Beginner Recipes is a responsive recipe website built using semantic HTML and CSS fundamentals.
 The site alows users to browse recipes, view detailed cooking instructions, and compare ingredient substitutes.
 
 This project demonstates resposive web design, accessible layout structure, and CSS animations while following best pratices for organization and readability.
 ---
-## Project Goals
+### Project Goals
 The goal of this project is to practice:
 
 -Semantic HTML structure
@@ -16,7 +16,7 @@ The goal of this project is to practice:
 -Accessible navigation and layout
 -Multi-page website organization
 ---
-## Website Features
+### Website Features
 ### Homepage
 The homepage introduces the website and provides quick navigation to recipes and ingredient comparison tools.
 ### Recipes Page
@@ -26,14 +26,14 @@ Users can:
 -Browse recipe options
 -Select a recipe to view details
 
-### Recipe Detail Page
+#### Recipe Detail Page
 Provides a full recipe including:
 
 -Ingredients list
 -Step-by-step cooking instructions
 -Recipe preparation information
 
-### Ingredient Compare Page
+#### Ingredient Compare Page
 Allows users to veiw common ingredient substitutes and  alternatives.
 
 Examples include substitutes for:
@@ -42,7 +42,7 @@ Examples include substitutes for:
 - Butter
 - Sugar
 ---
-## Technologies Used
+### Technologies Used
 - HTML5
 - CSS3
 - CSS Variables
@@ -50,7 +50,7 @@ Examples include substitutes for:
 - Flexbox
 - CSS Animations
 ---
-## Project Structure
+### Project Structure
 WP PROJECT 1/
   |
   |--- index.html
@@ -61,7 +61,7 @@ WP PROJECT 1/
   |--- image/
   | |__ recipe-images.png
 ---
-## Design Features
+### Design Features
 The website includes seveal moddern design elements:
 - Responsive layout for mobile and desktop
 - Animated logo entrance
@@ -69,6 +69,6 @@ The website includes seveal moddern design elements:
 - Gradient header color theme
 - Accessible semantic page structure
 ---
-## Contributors
+### Contributors
 - [Tytusclements-cpu](https://github.com/Tytusclements-cpu)
 - [sanskirtraut](https://github.com/sanskirtraut)
