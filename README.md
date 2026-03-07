@@ -3,7 +3,6 @@
 ## Beginner Recipes
 Beginner Recipes is a responsive recipe website built using semantic HTML and CSS fundamentals.
 The site alows users to browse recipes, view detailed cooking instructions, and compare ingredient substitutes.
-
 This project demonstates resposive web design, accessible layout structure, and CSS animations while following best pratices for organization and readability.
 ---
 ### Project Goals
