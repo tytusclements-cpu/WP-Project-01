@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beginner Recipes — Recipes</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="site-header" role="banner">
+<div class="container header-inner">
+
+<a class="brand" href="index.html">Beginner Recipe</a>
+
+<nav class="main-nav" role="navigation" aria-label="Main Navigation">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="recipes.html" aria-current="page">Recipes</a></li>
+<li><a href="compare.html">Compare</a></li>
+</ul>
+</nav>
+
+</div>
+</header>
+
+
+<main id="main" class="container" role="main">
+<section aria-labelledby="recipes-heading">
+<div class="toolbar">
+<h1 id="recipes-heading">All Recipes</h1>
+
+<label class="search">
+<span class="visually-hidden">Search recipes</span>
+<input type="search" placeholder="Search (example: pasta, vegan)">
+</label>
+
+<label for="filter-select">Filter:</label>
+
+<select id="filter-select">
+<option>All</option>
+<option>Vegan</option>
+<option>Dessert</option>
+<option>Quick</option>
+</select>
+
+</div>
+
+
+<!-- Recipe Grid -->
+<ul id="recipe-grid" class="grid">
+
+<!-- Spicy Pasta -->
+<li class="recipe-card">
+<img src="images/pasta.png" alt="Spicy Pasta">
+<h2>Spicy Pasta</h2>
+<p class="category">Quick • Dinner</p>
+<p>
+A flavorful spicy tomato pasta with herbs and garlic.
+</p>
+<a class="btn" href="spicy-pasta.html">View Full Recipe</a>
+</li>
+
+
+<!-- Pancakes -->
+<li class="recipe-card">
+<img src="images/pancakes.png" alt="Classic Pancakes">
+<h2>Classic Pancakes</h2>
+<p class="category">Breakfast • Sweet</p>
+<p>
+Light and fluffy pancakes served with syrup and berries.
+</p>
+<a class="btn" href="pancakes.html">View Full Recipe</a>
+
+</li>
+
+
+<!-- Salad -->
+<li class="recipe-card">
+<img src="images/salad.png" alt="Fresh Garden Salad">
+<h2>Fresh Garden Salad</h2>
+<p class="category">Healthy • Vegan</p>
+<p>
+Crisp lettuce, tomatoes, cucumbers, and vinaigrette.
+</p>
+<a class="btn" href="salad.html">View Full Recipe</a>
+
+</li>
+
+<!-- Brownies -->
+<li class="recipe-card">
+
+<img src="images/brownies.png" alt="Chocolate Brownies">
+
+<h2>Chocolate Brownies</h2>
+
+<p class="category">Dessert</p>
+
+<p>
+Rich chocolate brownies with a soft center and crisp edges.
+</p>
+
+<a class="btn" href="brownies.html">View Full Recipe</a>
+</li>
+</ul>
+
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+<p>© 2026 Beginner Recipe</p>
+</div>
+</footer>
+</body>
+</html>
