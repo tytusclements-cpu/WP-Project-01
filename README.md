@@ -1,8 +1,8 @@
 # WP-Project-01
 ---
-# Beginner Recipes
+# Delightful Recipes
 
-Beginner Recipes is a responsive recipe website built using semantic HTML and CSS fundamentals.
+Delightful Recipes is a responsive recipe website built using semantic HTML and CSS fundamentals.
 
 The site alows users to browse recipes, view detailed cooking instructions, and compare ingredient substitutes.
 
@@ -65,8 +65,11 @@ Examples include substitutes for:
 WP PROJECT 1/
 |
 |--- index.html
-|--- recipe.html
 |--- recipes.html
+|--- pancakes.html
+|--- brownies.html
+|--- salad.html
+|--- spicy-pasta.html
 |--- compare.html
 |
 |--- image/
