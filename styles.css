@@ -82,6 +82,64 @@ body {
     display: inline-block;
 }
 
+/* -- Filter ---*/ 
+.filter-input {
+    display: none;
+}
+
+
+.btn, .main-nav a {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #AEB784; 
+    color: #41431B; 
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid #333;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    
+    box-shadow: 0 4px 0 #333; 
+    transition: all 0.1s ease; 
+    position: relative;
+    top: 0;
+}
+
+
+.btn:hover, .main-nav a:hover {
+    background-color: #BDC696;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 0 #333;
+}
+
+
+.btn:active, .main-nav a:active,
+#tag-vegan:checked ~ .toolbar [for="tag-vegan"],
+#tag-dessert:checked ~ .toolbar [for="tag-dessert"],
+#tag-quick:checked ~ .toolbar [for="tag-quick"] {
+    top: 3px; 
+    box-shadow: 0 1px 0 #333; 
+    background-color: var(--accent);
+    color: var(--bg-color);
+}
+
+
+#tag-vegan:checked ~ #recipe-grid .recipe-card,
+#tag-dessert:checked ~ #recipe-grid .recipe-card,
+#tag-quick:checked ~ #recipe-grid .recipe-card {
+    display: none;
+}
+
+
+#tag-vegan:checked ~ #recipe-grid .recipe-card.vegan,
+#tag-dessert:checked ~ #recipe-grid .recipe-card.dessert,
+#tag-quick:checked ~ #recipe-grid .recipe-card.quick {
+    display: block;
+    animation: cardFadeIn 0.5s ease-out forwards;
+}
+
+
 /* --- 3-Column Grid  --- */
 .feature-grid, 
 .grid, 
@@ -104,13 +162,34 @@ body {
 
 
 .card:hover, .recipe-card:hover {
-    transform: scale(1.05) rotate(1deg); 
+    transform: scale(1.03) rotate(-1deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .recipe-card img {
     max-width: 100%;
     height: auto;
     margin-bottom: 15px;
+}
+
+
+.substitute-list {
+    list-style: "→ "; 
+    padding-left: 20px;
+    color: var(--text-secondary);
+}
+
+.substitute-list li {
+    margin-bottom: 10px;
+}
+
+.note {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--accent);
+    border-top: 1px dashed var(--border);
+    padding-top: 10px;
+    margin-top: 15px;
 }
 
 /* ---  Recipe Styles --- */
@@ -197,7 +276,6 @@ body {
 }
 
 
-/* Ensures the Compare page uses the same 3-column structure as the wireframe */
 .compare-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* [cite: 10] */
@@ -255,7 +333,7 @@ body {
     margin-top: 10px;
 }
 
-/* Hover transformation specifically for comparison cards */
+
 .compare-grid .card:hover {
     transform: translateY(-5px) rotate(-1deg); /* [cite: 15] */
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
